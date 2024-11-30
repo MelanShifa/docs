@@ -41,7 +41,7 @@
   "navigation": [
     {
       "group": "Get Started",
-      "pages": ["introduction", "quickstart", "FAQ"]
+      "pages": ["introduction", "Product", "Community", "FAQ"]
     }
   ],
   "footerSocials": {
