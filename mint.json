@@ -41,7 +41,7 @@
   "navigation": [
     {
       "group": "Pages",
-      "pages": ["introduction", "Product", "Community", "FAQ"]
+      "pages": ["introduction", "product", "community", "faq"]
     }
   ],
   "footerSocials": {
