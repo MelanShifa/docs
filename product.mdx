@@ -1,103 +1,152 @@
 ---
-title: "Product Guide"
-description: "Preview changes locally to update your docs"
+title: "SkyBot Product Guide"
+description: "Learn how to use SkyBot for air traffic control communication training."
 ---
 
 <Info>
-  **Prerequisite**: Please install Node.js (version 19 or higher) before proceeding.
+  **Quick Tip**: SkyBot is a web app. All you need is an internet connection and
+  a modern browser to get started!
 </Info>
 
-Follow these steps to install and run Mintlify on your operating system:
+---
 
-**Step 1**: Install Mintlify:
+## Welcome to SkyBot 🚀
 
-<CodeGroup>
-  ```bash npm
-  npm i -g mintlify
-  ```
+SkyBot is an advanced air traffic control (ATC) communication simulator designed for student pilots. By mimicking real-world scenarios—from ground operations and takeoffs to emergencies—it provides a cost-effective and flexible way to improve your ATC communication skills.
 
-  ```bash yarn
-  yarn global add mintlify
-  ```
-</CodeGroup>
+SkyBot was created to address a gap in aviation training: the lack of active, realistic practice for ATC communications. With our platform, you can:
 
-**Step 2**: Navigate to the docs directory (where the `mint.json` file is located) and execute the following command:
+- Practice in a variety of scenarios, including emergency situations.
+- Train with AI-powered simulations that adapt to different airspaces, airports, and real-time conditions.
+- Build confidence and expertise in handling diverse communication challenges.
 
-```bash
-mintlify dev
-```
+Let’s dive in to learn how to use SkyBot effectively.
 
-A local preview of your documentation will be available at `http://localhost:3000`.
+---
 
-### Custom Ports
+## Getting Started
 
-By default, Mintlify uses port 3000. You can customize the port Mintlify runs on by using the `--port` flag. To run Mintlify on port 3333, for instance, use this command:
+### Step 1: Access the Web App
 
-```bash
-mintlify dev --port 3333
-```
+Visit **[app.skybot.tech](https://app.skybot.tech)** and log in or sign up to get started. If you’re new, signing up is quick and easy!
 
-If you attempt to run Mintlify on a port that's already in use, it will use the next available port:
+### Step 2: Navigate the Dashboard
 
-```md
-Port 3000 is already in use. Trying 3001 instead.
-```
+Once logged in, you’ll see:
 
-## Mintlify Versions
+- **New Session**: Start a custom simulation or campaign module.
+- **Continue Campaign**: Pick up where you left off in structured training modules.
+- **Recent Sessions**: Review past sessions and access detailed feedback.
 
-Please note that each CLI release is associated with a specific version of Mintlify. If your local website doesn't align with the production version, please update the CLI:
+---
 
-<CodeGroup>
-  ```bash npm
-  npm i -g mintlify@latest
-  ```
+## Features
 
-  ```bash yarn
-  yarn global upgrade mintlify
-  ```
-</CodeGroup>
+### Key Features:
 
-## Validating Links
+1. **Custom Simulations**: Create unique scenarios by selecting:
+   - Airspace class, airport, and weather conditions.
+   - Traffic density and simulation objectives (e.g., takeoff, landing, emergencies).
+   - Your aircraft type and personalized call sign.
+2. **Campaign Mode**: Follow structured modules developed with aviation experts. Modules include:
+   - Ground operations.
+   - Takeoff and departure procedures.
+   - Emergency handling in busy airspaces.
+3. **Dynamic Feedback**: AI-generated insights after each session help you identify strengths and areas for improvement.
+4. **Realistic AI Interactions**: The ATC adapts dynamically, providing a unique experience every time—even in repeated scenarios.
 
-The CLI can assist with validating reference links made in your documentation. To identify any broken links, use the following command:
+---
 
-```bash
-mintlify broken-links
-```
+## Step-by-Step Guide
 
-## Deployment
+### How to Start a Custom Simulation:
 
-<Tip>
-  Unlimited editors available under the [Pro
-  Plan](https://mintlify.com/pricing) and above.
-</Tip>
+1. Click **New Custom Simulation** from the dashboard.
+2. Fill in the details:
+   - **Scenario Type**: Select takeoff, landing, or emergency.
+   - **Airport & Airspace**: Choose the location and class.
+   - **Weather & Traffic**: Adjust difficulty levels.
+   - **Call Sign**: Your unique identifier based on your name.
+3. Start the session and communicate with the AI ATC to achieve your objectives.
 
-If the deployment is successful, you should see the following:
+### Campaign Mode:
 
-<Frame>
-  <img src="/images/checks-passed.png" style={{ borderRadius: '0.5rem' }} />
-</Frame>
+1. Click **Continue Campaign** on the dashboard.
+2. Select a module (e.g., ground operations, IFR clearance).
+3. Follow the submodules, each focusing on specific situations.
+4. Complete scenarios, progress through chapters, and earn new titles as you advance.
 
-## Code Formatting
+### Reviewing Feedback:
 
-We suggest using extensions on your IDE to recognize and format MDX. If you're a VSCode user, consider the [MDX VSCode extension](https://marketplace.visualstudio.com/items?itemName=unifiedjs.vscode-mdx) for syntax highlighting, and [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) for code formatting.
+1. After each session, view your feedback on the **Session History** page.
+2. Feedback includes:
+   - Strengths and weaknesses.
+   - Suggestions for improvement.
+   - A detailed breakdown of your communication.
+
+---
 
 ## Troubleshooting
 
 <AccordionGroup>
-  <Accordion title="Error: Could not load the &#x22;sharp&#x22; module using the darwin-arm64 runtime">
-    This may be due to an outdated version of node. Try the following:
-
-    1. Remove the currently-installed version of mintlify: `npm remove -g mintlify`
-
-    2. Upgrade to Node v19 or higher.
-
-    3. Reinstall mintlify: `npm install -g mintlify`
+  <Accordion title="Unable to Start a Session">
+    Ensure all scenario details are filled out correctly. If the issue persists, refresh your browser or contact support.
   </Accordion>
 
-  <Accordion title="Issue: Encountering an unknown error">
-    Solution: Go to the root of your device and delete the \~/.mintlify folder. Afterwards, run `mintlify dev` again.
+{" "}
+
+<Accordion title="Audio Issues">
+  - Check your device's audio settings. - Use headphones for an immersive
+  experience. - If the problem continues, restart the session.
+</Accordion>
+
+  <Accordion title="Feedback Not Generating">
+    - Confirm the session was completed.  
+    - For interrupted sessions, click **Generate Feedback** manually in the Session History page.
   </Accordion>
 </AccordionGroup>
 
-Curious about what changed in the CLI version? [Check out the CLI changelog.](https://www.npmjs.com/package/mintlify?activeTab=versions)
+---
+
+## Why Choose SkyBot?
+
+- **Unique Simulations**: Every session is dynamically generated, providing a fresh experience even in repeated scenarios.
+- **Realistic Training**: SkyBot’s AI mirrors real-world ATC communications, helping you prepare for real-life challenges.
+- **Cost-Effective**: Train anytime, anywhere, without the high costs of traditional tools.
+
+---
+
+## Join the SkyBot Community
+
+SkyBot is free for the first few months! We’re actively partnering with aviation schools, flight programs, and universities. If you’re part of an aviation program, contact us at **[founders@skybot.tech](mailto:founders@skybot.tech)** to collaborate.
+
+---
+
+## Stay Updated
+
+We’re continuously improving SkyBot based on user feedback. Visit **[app.skybot.tech](https://app.skybot.tech)** to join the waitlist, explore new features, or access the latest updates.
+
+---
+
+## Need Help?
+
+<Tip>
+  Have questions or suggestions? Reach out to our team at
+  **[support@skybot.tech](mailto:support@skybot.tech)**. We’d love to hear from
+  you!
+</Tip>
+
+---
+
+---
+
+## Feedback
+
+<Info>
+  Your feedback is invaluable in helping us refine and enhance SkyBot. It’s how
+  we continuously improve and align with your needs. Together, we can make
+  SkyBot the best training tool for aviation communication. Please the form -
+  **[Feedback Form](https://forms.gle/3Xsvmedi61iqTMN47)**.
+</Info>
+
+---

@@ -3,7 +3,7 @@
   "name": "Skybot",
   "logo": {
     "dark": "/logo/dark.png",
-    "light": "/logo/light.svg"
+    "light": "/logo/light.png"
   },
   "favicon": "/favicon.svg",
   "colors": {
@@ -23,7 +23,7 @@
   ],
   "topbarCtaButton": {
     "name": "Dashboard",
-    "url": "https://appskybot.tech"
+    "url": "https://app.skybot.tech"
   },
   "tabs": [],
   "anchors": [
@@ -40,7 +40,7 @@
   ],
   "navigation": [
     {
-      "group": "Get Started",
+      "group": "Pages",
       "pages": ["introduction", "Product", "Community", "FAQ"]
     }
   ],
