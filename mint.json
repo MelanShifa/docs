@@ -28,9 +28,9 @@
   "tabs": [],
   "anchors": [
     {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "product"
+      "name": "Demo Video",
+      "icon": "video",
+      "url": "https://youtu.be/t-iYU3FFj2E"
     },
     {
       "name": "Community",
